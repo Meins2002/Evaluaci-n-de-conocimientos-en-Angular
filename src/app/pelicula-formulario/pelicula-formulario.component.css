@@ -1,0 +1,54 @@
+header {
+    background-color: #333;
+      color: #fff; 
+      padding: 10px; 
+      text-align: center;
+  }
+  body{
+    background-color: #020202; 
+  }
+  main {
+    padding: 20px;
+  }
+ 
+  .detalle {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .detalle h2 {
+    margin-bottom: 10px;
+  }
+  
+  .detalle p {
+    margin-bottom: 5px;
+  }
+  
+  .detalle button {
+    margin-top: 10px;
+  }
+
+mat-card {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+mat-card-actions button {
+  margin-top: 10px;
+}
+
+.error-message {
+  color: rgb(8, 8, 8);
+  margin-top: 10px;
+}

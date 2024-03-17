@@ -1,0 +1,69 @@
+
+body{
+  background-color: #333; 
+}
+main {
+  padding: 20px;
+}
+
+.detalle {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.detalle h2 {
+  margin-bottom: 10px;
+}
+
+.detalle p {
+  margin-bottom: 5px;
+}
+
+.detalle button {
+  margin-top: 10px;
+}
+mat-card {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+
+  display: flex;
+}
+.mat-card-content {/*agregado*/
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+.mat-card-content textarea {
+  height: auto !important; /* Ajusta la altura automáticamente según el contenido */
+  min-height: 50px; /* Altura mínima para el área de texto */
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+mat-card-actions button {
+  margin-top: 10px;
+}
+.detalle-imagen-container {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos horizontalmente con espacio entre ellos */
+  margin-top: 20px; /* Espacio superior entre la tarjeta de búsqueda y el contenedor de detalles de la película y la imagen */
+}
+img {
+  max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+  margin-top: 16px; /* Espaciado superior de la imagen */
+  margin-left: 16px; /* Espaciado izquierdo de la imagen */
+  
+}
+.error-message {
+  color: rgb(8, 8, 8);
+  margin-top: 10px;
+}

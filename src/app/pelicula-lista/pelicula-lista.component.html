@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <span>LISTA DE PELICULAS</span>
+</mat-toolbar>
+<body>
+  <main>
+    <div class="Lista">
+      <div *ngFor="let pelicula of peliculas">
+        <div class="peliculas-container">
+        <app-tarjeta-pelicula [peliculaId]="pelicula.title"></app-tarjeta-pelicula>
+        </div>
+        <button mat-icon-button color="warn" (click)="eliminarPelicula(pelicula.title)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </div>
+  </main>  
+</body>
+

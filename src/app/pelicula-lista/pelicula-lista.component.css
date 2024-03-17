@@ -1,0 +1,22 @@
+.Lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.mat-grid-tile {
+  max-width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
+.peliculas-container {
+  padding: 16px; 
+}
+
+button {
+  margin-top: 8px; 
+}

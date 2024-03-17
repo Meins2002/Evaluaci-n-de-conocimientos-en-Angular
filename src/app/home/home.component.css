@@ -1,0 +1,44 @@
+header {
+    background-color: #070707; 
+      color: #fff;
+      padding: 5px; 
+      text-align: left; 
+  }
+  
+  body {
+    background-color: #000000; 
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+      margin: 0;
+      padding: 0;
+    }
+    
+  app-home {
+      margin-top: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #342e86;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}

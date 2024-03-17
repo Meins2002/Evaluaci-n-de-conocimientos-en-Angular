@@ -1,0 +1,20 @@
+<body>
+  <main>
+    <div class="container">
+    <mat-card *ngIf="pelicula" class="card-material">
+        <mat-card-header>
+          <div mat-card-avatar ></div>       
+          <mat-card-title>{{ pelicula.title }}</mat-card-title>
+          <mat-card-subtitle>{{ pelicula.director }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="{{ pelicula.image }}" alt="{{ pelicula.title }}">
+        <div *ngIf="description" class="descripcion">
+          {{ pelicula.description }}
+        </div>
+        <mat-card-actions>
+          <button mat-button (click)="toggleDescripcion()">More</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>  
+  </main>
+</body>

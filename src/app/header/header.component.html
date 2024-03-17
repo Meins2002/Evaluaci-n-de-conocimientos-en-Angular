@@ -1,0 +1,19 @@
+<header>
+    <h1 class="Titulo">PELICULAS</h1>
+</header>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><button mat-button routerLink="peliculas/home">Home</button></li>
+                <li><button mat-button routerLink="peliculas/pelicula-formulario">Crear</button></li>
+                <li><button mat-button routerLink="peliculas/pelicula-detalle/:id">Editar</button></li>
+                <li><button mat-button routerLink="peliculas/pelicula-lista">Catalogo</button></li>
+            </ul>
+        </nav> 
+        <router-outlet></router-outlet> 
+        <footer>
+            <p>Derechos de autor &copy; 2024 - James Andrey Florez Calderon</p>
+        </footer>
+    </main>
+</body>

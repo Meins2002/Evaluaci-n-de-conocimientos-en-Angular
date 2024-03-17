@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.card-material {
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  flex: 1 1 calc(25% - 40px); 
+  margin: 10px;
+}
+
+.card-material:hover {
+  transform: translateY(-5px);
+}
+
+.card-material img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-material .mat-card-content {
+  padding: 10px;
+  height: 50px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-material .mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
